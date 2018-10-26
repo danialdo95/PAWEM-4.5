@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>PAWEM</display-name>
+  <servlet>
+    <servlet-name>staffHandler</servlet-name>
+    <servlet-class>com.pawem.controller.staffHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>staffHandler</servlet-name>
+    <url-pattern>/staff</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>memberHandler</servlet-name>
+    <servlet-class>com.pawem.controller.memberHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>memberHandler</servlet-name>
+    <url-pattern>/member</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>eventHandler</servlet-name>
+    <servlet-class>com.pawem.controller.eventHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>eventHandler</servlet-name>
+    <url-pattern>/event</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>reportHandler</servlet-name>
+    <servlet-class>com.pawem.controller.reportHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>reportHandler</servlet-name>
+    <url-pattern>/report</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>eventReportHandler</servlet-name>
+    <servlet-class>com.pawem.controller.eventReportHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>eventReportHandler</servlet-name>
+    <url-pattern>/eventReport</url-pattern>
+  </servlet-mapping>
+</web-app>
